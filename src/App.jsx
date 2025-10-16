@@ -8,7 +8,7 @@ import Product from "./pages/Product";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import ProductDetails from "./pages/ProductDetails";
-import ProductList from "../pages/ProductList.js";
+
 
 
 
@@ -26,7 +26,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="about" element={<About />} />
           <Route path="/product/:id" element={<ProductDetails />} />
-          <Route path="/productlist" element={<ProductList />} />
+
         </Routes>
       </main>
       <Footer />
