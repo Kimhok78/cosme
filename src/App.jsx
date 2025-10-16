@@ -8,6 +8,7 @@ import Product from "./pages/Product";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import ProductDetails from "./pages/ProductDetails";
+import ProductList from "../pages/ProductList.js";
 
 
 

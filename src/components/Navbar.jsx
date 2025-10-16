@@ -6,7 +6,8 @@ import ThemeContext from "../context/ThemeContext";
 import { StoreContext } from "../store/StoreContext";
 import { ShoppingCart } from "lucide-react";
 import Products from "../pages/Product";
-import ProductList from "../pages/ProductList";
+import ProductList from "../pages/Productlist";
+
 const Navbar = () => {
   const { totalItems } = useContext(StoreContext);
   const { theme, toggleTheme } = useContext(ThemeContext);
