@@ -14,21 +14,21 @@ export default function ProductList() {
       <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {PRODUCTS.map((Products) => (
           <div
-            key={Product.id}
+            key={Products.id}
             className="bg-white rounded-2xl shadow hover:shadow-lg transition p-4 flex flex-col justify-between"
           >
             <img
-              src={Product.image}
-              alt={Product.name}
+              src={Products.image}
+              alt={Products.name}
               className="rounded-xl object-cover w-full h-48 mb-4"
             />
             <div>
-              <h3 className="font-semibold text-lg mb-1">{Product.name}</h3>
-              <p className="text-gray-600 text-sm mb-2">{Product.short}</p>
-              <p className="font-bold text-blue-700 mb-3">${Product.price}</p>
+              <h3 className="font-semibold text-lg mb-1">{Products.name}</h3>
+              <p className="text-gray-600 text-sm mb-2">{Products.short}</p>
+              <p className="font-bold text-blue-700 mb-3">${Products.price}</p>
             </div>
             <button
-              onClick={() => addToCart(Product)}
+              onClick={() => addToCart(Products)}
               className="bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg flex items-center justify-center gap-2 transition"
             >
               <ShoppingCart size={18} />
