@@ -6,10 +6,10 @@ import ThemeContext from "../context/ThemeContext";
 import { StoreContext } from "../store/StoreContext";
 import { ShoppingCart } from "lucide-react";
 import Products from "../pages/Product";
-// import ProductList from "../pages/Productlist";
+import ProductList from "../pages/productlist";
 
 const Navbar = () => {
-  // const { totalItems } = useContext(StoreContext);
+  const { totalItems } = useContext(StoreContext);
   const { theme, toggleTheme } = useContext(ThemeContext);
   return (
     <div>
@@ -99,7 +99,7 @@ const Navbar = () => {
                 >
                   Contact
                 </Link>
-                {/* <Link
+                 <Link
                   to={`/productlist/${Products.id}`}
                   className="relative flex items-center hover:text-gray-300"
                 >
@@ -109,7 +109,7 @@ const Navbar = () => {
                       {totalItems}
                     </span>
                   )}
-                </Link> */}
+                </Link> 
               </li>
             </ul>
           </div>

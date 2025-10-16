@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { PRODUCTS } from "../data/Products";
 import { StoreContext } from "../store/StoreContext";
 import AddToCartButton from "../components/AddToCartButton";
+import { ShoppingCart } from "lucide-react";
+
 
 function ProductCard({ product }) {
   return (
