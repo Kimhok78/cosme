@@ -99,7 +99,7 @@ const Navbar = () => {
                 >
                   Contact
                 </Link>
-                <Link
+                {/* <Link
                   to={`/productlist/${Products.id}`}
                   className="relative flex items-center hover:text-gray-300"
                 >
@@ -109,7 +109,7 @@ const Navbar = () => {
                       {totalItems}
                     </span>
                   )}
-                </Link>
+                </Link> */}
               </li>
             </ul>
           </div>
