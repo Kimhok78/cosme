@@ -147,6 +147,7 @@ export default function About() {
               <div>
                 <strong>Sam Lee</strong>
                 <div className="text-gray-500 text-sm">Head of Design</div>
+                
               </div>
             </div>
 
